@@ -1,10 +1,12 @@
-/*=============================================
-=            BREAKPOINTS - A.S.Adventure       =
-=============================================*/
-/*-----  End of Section comment block  ------*/
+@charset "UTF-8";
 /*====================================
 =            Styles - USP            =
 ====================================*/
+/**
+*
+* Pieter De Wachter ©2014
+*
+**/
 #container-usp {
   width: 100%;
   background: transparent;
@@ -43,12 +45,16 @@
     padding-left: 0 !important; }
   @media only screen and (min-width: 980px) and (max-width: 1199px) {
     #container-usp ul li {
-      font-size: 11px; } }
+      font-size: 11px; }
+      #container-usp ul li.fr {
+        font-size: 10px; } }
   @media only screen and (min-width: 767px) and (max-width: 979px) {
     #container-usp ul li {
       width: auto;
       font-size: 11px;
       padding-left: 0; }
+      #container-usp ul li.fr {
+        font-size: 9px; }
       #container-usp ul li.center {
         margin: 0 auto;
         text-align: center;
