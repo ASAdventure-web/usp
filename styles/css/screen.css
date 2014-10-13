@@ -1,0 +1,40 @@
+/*=============================================
+=            BREAKPOINTS - A.S.Adventure       =
+=============================================*/
+/*-----  End of Section comment block  ------*/
+#container-usp {
+  width: 100%;
+  background: transparent;
+  margin: 0;
+  padding: 0; }
+
+#container-usp ul {
+  margin: 0;
+  padding: 0;
+  color: #303030; }
+
+#container-usp ul .fa {
+  color: #fe9122; }
+
+#container-usp ul li {
+  width: 33%;
+  float: left;
+  padding-left: 15px; }
+  #container-usp ul li:last-child {
+    float: right;
+    text-align: right;
+    padding-right: 15px; }
+  @media only screen and (min-width: 980px) and (max-width: 1199px) {
+    #container-usp ul li {
+      width: 33%;
+      font-size: 11px; } }
+  @media only screen and (min-width: 767px) and (max-width: 979px) {
+    #container-usp ul li {
+      width: auto;
+      font-size: 11px;
+      padding-left: 0; }
+      #container-usp ul li.center {
+        margin: 0 auto;
+        text-align: center;
+        left: 28%;
+        position: absolute; } }
