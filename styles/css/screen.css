@@ -23,12 +23,6 @@
   color: #303030; }
   #container-usp ul.fr {
     font-size: 12px; }
-    @media only screen and (min-width: 980px) and (max-width: 1199px) {
-      #container-usp ul.fr {
-        font-size: 10px; } }
-    @media only screen and (min-width: 767px) and (max-width: 979px) {
-      #container-usp ul.fr {
-        font-size: 9px; } }
 
 #container-usp ul .fa {
   color: #fe9122; }

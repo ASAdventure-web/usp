@@ -28,12 +28,6 @@
 	color: #303030;
 	&.fr {
 		font-size: 12px;
-		@include breakpoint(mama-bear) {
-			font-size: 10px;
-		}
-		@include breakpoint(stiff-mama-bear) {
-			font-size: 9px;
-		}
 	}
 }
 
