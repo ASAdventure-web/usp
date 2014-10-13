@@ -3,8 +3,12 @@
 #container-usp {
 	width: 100%;
 	background: transparent;
-	margin: 0;
+	margin-left: 30px;
+	margin-right: 0;
 	padding: 0;
+	@include breakpoint(baby-bear) {
+		display: none;
+	}
 }
 
 #container-usp ul {
@@ -18,17 +22,17 @@
 }
 
 #container-usp ul li {
-	width: 33%;
-	// display: inline-block;
+	width: 31%;
 	float: left;
 	padding-left: 15px;
+	list-style-type: none;
 	&:last-child {
 		float: right;
 		text-align: right;
-		padding-right: 15px;
+		padding-right: 30px;
+		padding-left: 0 !important;
 	}
 	@include breakpoint(mama-bear) {
-		width: 33%;
 		font-size: 11px;
 	}
 	@include breakpoint(stiff-mama-bear) {
