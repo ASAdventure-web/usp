@@ -25,7 +25,7 @@
 #container-usp ul {
 	margin: 0;
 	padding: 0;
-	color: #303030;
+	color: #505050;
 	&.fr {
 		font-size: 12px;
 	}
@@ -59,11 +59,20 @@
 		&.fr {
 			font-size: 9px;
 		}
+		&.nl_fix {
+			font-size: 9px;
+		}
 		&.center {
 			margin: 0 auto;
 			text-align: center;
 			left: 28%;
 			position: absolute;
+			&.france_fix {
+				left: 33%;
+			}
+			&.nl_fix {
+				left: 32%;
+			}
 		}
 	}
 }

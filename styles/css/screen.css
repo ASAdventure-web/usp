@@ -10,7 +10,7 @@
 #container-usp { width: 100%; background: transparent; margin-left: 30px; margin-right: 0; padding: 0; }
 @media only screen and (max-width: 766px) { #container-usp { display: none; } }
 
-#container-usp ul { margin: 0; padding: 0; color: #303030; }
+#container-usp ul { margin: 0; padding: 0; color: #505050; }
 #container-usp ul.fr { font-size: 12px; }
 
 #container-usp ul .fa { color: #fe9122; }
@@ -21,4 +21,7 @@
   #container-usp ul li.fr { font-size: 10px; } }
 @media only screen and (min-width: 767px) and (max-width: 979px) { #container-usp ul li { width: auto; font-size: 11px; padding-left: 0; }
   #container-usp ul li.fr { font-size: 9px; }
-  #container-usp ul li.center { margin: 0 auto; text-align: center; left: 28%; position: absolute; } }
+  #container-usp ul li.nl_fix { font-size: 9px; }
+  #container-usp ul li.center { margin: 0 auto; text-align: center; left: 28%; position: absolute; }
+  #container-usp ul li.center.france_fix { left: 33%; }
+  #container-usp ul li.center.nl_fix { left: 32%; } }
