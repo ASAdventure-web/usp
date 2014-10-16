@@ -16,6 +16,8 @@
 #container-usp ul .fa { color: #fe9122; }
 
 #container-usp ul li { width: 31%; float: left; padding-left: 15px; list-style-type: none; }
+#container-usp ul li.center.uk_fix { left: 40%; position: absolute; }
+#container-usp ul li.center.dk_fix { left: 40%; position: absolute; }
 #container-usp ul li:last-child { float: right; text-align: right; padding-right: 30px; padding-left: 0 !important; }
 @media only screen and (min-width: 980px) and (max-width: 1199px) { #container-usp ul li { font-size: 11px; }
   #container-usp ul li.fr { font-size: 10px; } }
