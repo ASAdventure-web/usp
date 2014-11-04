@@ -54,3 +54,6 @@
   @media only screen and (min-width: 980px) and (max-width: 1199px) {
     #container-usp.dag-vd-webshop ul .webshop-voordeel {
       letter-spacing: 0; } }
+
+#container-usp .gratis-levering-highlighted {
+  text-transform: uppercase; }
