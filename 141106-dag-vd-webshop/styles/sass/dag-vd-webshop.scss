@@ -50,12 +50,12 @@
 		letter-spacing: 0;
 	}
 }
-#container-usp.dag-vd-webshop ul .webshop-voordeel {
-	letter-spacing: 1px;
-	@include breakpoint(mama-bear) {
-		letter-spacing: 0;
-	}
-}
+// #container-usp.dag-vd-webshop ul .webshop-voordeel {
+// 	letter-spacing: 1px;
+// 	@include breakpoint(mama-bear) {
+// 		letter-spacing: 0;
+// 	}
+// }
 
 #container-usp .gratis-levering-highlighted {
 	text-transform: uppercase;
