@@ -40,16 +40,17 @@
 	float: left;
 	padding-left: 15px;
 	list-style-type: none;
-	&.center.uk_fix {
-		left: 40%;
-		position: absolute;
-	}
+	// &.center.uk_fix {
+	// 	left: 40%;
+	// 	position: absolute;
+	// }
 	&.center.dk_fix {
 		left: 40%;
 		position: absolute;
 	}
 	.highlighted {
 		font-weight: bold;
+		color: #2C7035;
 	}
 	&:last-child {
 		float: right;
