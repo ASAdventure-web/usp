@@ -54,7 +54,7 @@
 	/* 0.2. UL LI ELEMENTS
 	   ========================================================================== */
 		#container-usp-product-detail ul li {
-			margin: 10px;
+			margin: 10px 15px 10px 10px;
 			padding-bottom: 2px;
   			padding-top: 5px;
 			border-bottom: 1px solid #e0e0e0;
@@ -66,6 +66,7 @@
 			.usp-pd-icons {
 				font-size: 1.5em;
 				margin-right: 15px;
+				width: 20px;
 				float: left;
 				&.middle-icon { 
 					position: relative;
@@ -81,6 +82,7 @@
 			p.usp-text {
 				color: #707070;
 				margin-bottom: 12px;
+				font-size: 15px;
 				&:first-child { margin-bottom: 10px; }
 				@include breakpoint(mama-bear) { font-size: 12px; }
 				@include breakpoint(stiff-mama-bear) { 
