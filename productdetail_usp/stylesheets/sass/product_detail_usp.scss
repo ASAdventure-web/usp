@@ -42,12 +42,9 @@
 #container-usp-product-detail {
 	width: 100%;
 	height: auto;
-	margin-left: 30px; // Bootstrap fix
-	margin-right: 0;
+	margin: 0px 0px 10px 30px; // 30px margin-bottom - SOCIAL ICONS
 	padding: 0;
 	font-family: "Open Sans", Helvetica, sans-serif;
-
-	background: #f7f7f7;
 
 	/* 	NON-DISPLAY MOBILE DEVICES */
 	@include breakpoint(baby-bear) { display: none; }
@@ -59,6 +56,7 @@
 			margin: 0;
 			padding: 0;
 			color: #505050;
+			background: #f7f7f7;
 
 		}
 
@@ -67,48 +65,48 @@
 
 		#container-usp-product-detail {
 
-			// FR_FIX | NL_FIX => Text on 2 lines === remove padding-bottom
-			&.fr_fix ul li,
-			&.nl_fix ul li {
-				&:first-child { padding-bottom: 0; }
-			}
+			// LANGUAGE FIXES => First-child text on 2 lines === remove padding-bottom
+			// &.fr_fix ul li,
+			// &.nl_fix ul li,
+			// &.uk_fix ul li,
+			// &.de_fix ul li,
+			// &.en_fix ul li,
+			// &.dk_fix ul li   {
+			// 	&:first-child { padding-bottom: 0; }
+			// }
 
 				ul li {
-				margin: 10px 15px 10px 10px;
-				padding-bottom: 2px;
-	  			padding-top: 5px;
+	  			position: relative;
+	  			height: 35px;
 				border-bottom: 1px solid #e0e0e0;
-					&:first-child { padding-top: 20px; padding-bottom: 15px; }
-					&:last-child { border: 0; }
+				&:last-child { border-bottom: 0; }
 
 				list-style-type: none;
+				padding: 10px;
 
 				.usp-pd-icons {
 					font-size: 1.5em;
 					margin-right: 15px;
 					width: 20px;
-					float: left;
-					&.middle-icon { 
-						position: relative;
-						top: 7px; 
-					}
-					@include breakpoint(stiff-mama-bear) { 
-						font-size: 15px;
-						margin-bottom: 5px;
-						margin-right: 5px; 
-					}
+					height: 100%;
+					vertical-align: bottom;
+						& * + * { vertical-align: super; }
 				}
 				
-				p.usp-text {
+				.usp-text {
 					color: #707070;
-					margin-bottom: 12px;
 					font-size: 15px;
-					&:first-child { margin-bottom: 10px; }
-					@include breakpoint(mama-bear) { font-size: 12px; }
-					@include breakpoint(stiff-mama-bear) { 
-						font-size: 10px;
-						text-align: center;
-					}
+					margin: 0;
+					padding: 0;
+					width: 85%;
+					height: 100%;
+					display: inline-block;
+					// // &:first-child { margin-bottom: 10px; }
+					// @include breakpoint(mama-bear) { font-size: 12px; }
+					// @include breakpoint(stiff-mama-bear) { 
+					// 	font-size: 10px;
+					// 	text-align: center;
+					// }
 
 
 				}
