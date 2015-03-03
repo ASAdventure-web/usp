@@ -4,6 +4,9 @@
 .slides {
   margin-left: -30px; }
 
+.detail_v1 .flexslider_recommended .slides .flexli:first-child {
+  margin-left: 0 !important; }
+
 #main .detail_v2 #productHeader .product_gender {
   position: relative;
   right: -16px; }
