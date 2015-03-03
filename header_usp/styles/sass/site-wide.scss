@@ -1,4 +1,4 @@
-// 
+// top-margin on search-results dropdown
 #headerSearch #suggestDropdown{
 	margin-top: 45px;
 }
@@ -6,6 +6,9 @@
 // aligns the certona containers in the right place
 .slides{
 	margin-left: -30px;
+}
+.detail_v1 .flexslider_recommended .slides .flexli:first-child{
+	margin-left: 0 !important;
 }
 
 // adjusting z-index for the gender-icon
@@ -34,11 +37,10 @@ sub, sup{
 	margin: 0 12px 0 0;
 }
 
-// makes the promo-icon on pdp appear underneath the color-swatch
+// makes the promo-icon on pdp appear underneath the color-swatch an make it appear instantly
 #productBody .colorLinks li a, #productBody .colorLinks li .promo_icon{
 	position: static;
 }
-
 #productBody .colorLinks li a{
 	transition: none;
 }
