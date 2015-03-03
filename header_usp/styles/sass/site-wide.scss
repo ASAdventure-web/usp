@@ -29,6 +29,11 @@ sub, sup{
 	position: static;
 }
 
+// making 8 swatches fit on one line next to eachother
+#main .detail_v2 #productBody .swatch_container .colorLinks li{
+	margin: 0 12px 0 0;
+}
+
 // makes the promo-icon on pdp appear underneath the color-swatch
 #productBody .colorLinks li a, #productBody .colorLinks li .promo_icon{
 	position: static;
