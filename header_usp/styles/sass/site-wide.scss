@@ -1,15 +1,38 @@
+// 
 #headerSearch #suggestDropdown{
 	margin-top: 45px;
 }
 
+// aligns the certona containers in the right place
 .slides{
 	margin-left: -30px;
 }
 
-#main .detail_v2 #productBody .swatch_container .colorLinks li{
-	position: relative;
-}
-
+// makes the extended range icon appear on the shoplanding website
 #productBody .colorLinks li .er_icon{
 	margin-top: 0;
+}
+
+// makes the sub and sup elements not shine through zoom on safari
+sub, sup{
+	position: static;
+}
+
+// makes the promo-icon on pdp appear underneath the color-swatch
+#productBody .colorLinks li a, #productBody .colorLinks li .promo_icon{
+	position: static;
+}
+
+#productBody .colorLinks li a{
+	transition: none;
+}
+
+// centering certona prices
+#main .detail_v2 .certona .product_recommendations li.span2 .front.thumb .inner .footer .priceNew{
+	float: none;
+	text-align: center;
+}
+
+#main .detail_v2 #product2_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .labeler{
+	display: inline-block;
 }
