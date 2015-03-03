@@ -46,9 +46,11 @@ sub, sup{
 // centering certona prices
 #main .detail_v2 .certona .product_recommendations li.span2 .front.thumb .inner .footer .priceNew{
 	float: none;
+	font-weight: 600;
 	text-align: center;
 }
 
+// displaying vanaf on certona campaigns
 #main .detail_v2 #product2_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .labeler{
 	display: inline-block;
 }
