@@ -4,11 +4,24 @@
 .slides {
   margin-left: -30px; }
 
-#main .detail_v2 #productBody .swatch_container .colorLinks li {
-  position: relative; }
-
 #productBody .colorLinks li .er_icon {
   margin-top: 0; }
+
+sub, sup {
+  position: static; }
+
+#productBody .colorLinks li a, #productBody .colorLinks li .promo_icon {
+  position: static; }
+
+#productBody .colorLinks li a {
+  transition: none; }
+
+#main .detail_v2 .certona .product_recommendations li.span2 .front.thumb .inner .footer .priceNew {
+  float: none;
+  text-align: center; }
+
+#main .detail_v2 #product2_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .labeler {
+  display: inline-block; }
 
 /*====================================
 =            Styles - USP            =
