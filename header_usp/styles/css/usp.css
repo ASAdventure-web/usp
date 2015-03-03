@@ -4,11 +4,21 @@
 .slides {
   margin-left: -30px; }
 
+#main .detail_v2 #productHeader .product_gender {
+  position: relative;
+  right: -16px; }
+
+.productImageSliderControls {
+  margin-top: 7px; }
+
 #productBody .colorLinks li .er_icon {
   margin-top: 0; }
 
 sub, sup {
   position: static; }
+
+#main .detail_v2 #productBody .swatch_container .colorLinks li {
+  margin: 0 12px 0 0; }
 
 #productBody .colorLinks li a, #productBody .colorLinks li .promo_icon {
   position: static; }
@@ -18,6 +28,7 @@ sub, sup {
 
 #main .detail_v2 .certona .product_recommendations li.span2 .front.thumb .inner .footer .priceNew {
   float: none;
+  font-weight: 600;
   text-align: center; }
 
 #main .detail_v2 #product2_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .labeler {
