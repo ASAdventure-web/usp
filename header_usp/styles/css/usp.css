@@ -45,6 +45,20 @@ sub, sup {
   top: 5px;
   right: 10px; }
 
+#main .detail_v2 #productBody .size_container .sizes a {
+  border: 1px solid transparent; }
+
+#main .detail_v2 .recentlyViewed h3, #main .detail_v2 #product2_rr h3, #main .detail_v2 #product1_rr h3 {
+  text-transform: capitalize; }
+
+#main .detail_v2 .recentlyViewed .flexslider_recommended li.span2 .front.thumb .inner .footer {
+  float: none;
+  padding: 5px 0;
+  width: 100%; }
+
+#main .detail_v2 .review_overview .review-block-points-minus {
+  margin-left: 10px; }
+
 /*====================================
 =            Styles - USP            =
 ====================================*/
