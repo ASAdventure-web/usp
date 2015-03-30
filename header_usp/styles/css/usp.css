@@ -1,8 +1,8 @@
 #headerSearch #suggestDropdown {
   margin-top: 45px; }
 
-.slides {
-  margin-left: -30px; }
+.certona .slides {
+  margin-left: -30px !important; }
 
 .detail_v1 .flexslider_recommended .slides .flexli:first-child {
   margin-left: 0 !important; }
@@ -36,6 +36,14 @@ sub, sup {
 
 #main .detail_v2 #product2_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .labeler {
   display: inline-block; }
+
+#main .detail_v2 .productInfo .technical {
+  position: relative; }
+
+#main .detail_v2 .productInfo .technical .manual a.manualLink {
+  position: absolute;
+  top: 5px;
+  right: 10px; }
 
 /*====================================
 =            Styles - USP            =
