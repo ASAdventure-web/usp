@@ -1,0 +1,108 @@
+@import "breakpoints";
+@import "site-wide";
+
+/*====================================
+=            Styles - USP            =
+====================================*/
+
+/**
+ * Description: Header usp - website asadventure.com.
+ * Version: 1.0.0
+ * Last update: 2015/03/31
+ * Author: Maaike Ongena <maaike.ongena@asadventure.com>
+ *
+ * Summary:
+ *
+ *	0. CONTAINER
+ *		- 0.1. UL-ELEMENTS
+ *		- 0.2. UL LI ELEMENTS
+ *	1. MEDIAQUERRIES
+ *		- 1.1. LANDSCAPE
+ *		- 1.2. PORTRAIT
+ *	2. COLORS
+ *		- 2.1. ICONS
+ *	3. EXTRA
+ *		- 3.1 TRANSITIONS
+ */
+
+/* ==========================================================================
+   0. CONTAINER
+   ========================================================================== */
+#container-usp {
+	width: 100%;
+	margin-left: 30px;
+	margin-right: 0;
+	padding: 0;
+	font-family: "Open Sans", Helvetica, sans-serif;
+
+	/* 	NON-DISPLAY MOBILE DEVICES */
+	@include breakpoint(baby-bear) { display: none; }
+}
+
+	/* 0.1. UL ELEMENT
+	   ========================================================================== */
+		#container-usp ul {
+			margin: 0;
+			padding: 0;
+			color: #505050;
+
+			/* 	CHANGE FONT-SIZE FOR LARGER TEXT */
+			&.fr_fix { font-size: 14px; }
+			&.de_fix { font-size: 13px; }
+		}
+
+	/* 0.2. UL LI ELEMENTS
+	   ========================================================================== */
+		#container-usp ul li {
+			width: 350px / 1140px * 100%;
+			float: left;
+			padding-left: 15px;
+			list-style-type: none;
+
+			/* 	MIDDLE ITEM (CENTER) */
+			&+* { text-align: center; }
+
+			/* 	LAST ITEM */
+			&:last-child { text-align: right; }
+
+/* ==========================================================================
+   1. MEDIAQUERRIES TABLET (LANDSCAPE & PORTRAIT)
+   ========================================================================== */
+
+	/* 	1.1. LANDSCAPE
+   		========================================================================== */   
+	@include breakpoint(mama-bear) {
+		font-size: 11px;
+		&.fr_fix { font-size: 10px; }
+		&.de_fix { font-size: 10px; }
+	}
+	/* 	1.2. PORTRAIT
+   		========================================================================== */
+	@include breakpoint(stiff-mama-bear) {
+		font-size: 8.8px;
+		padding-left: 0;
+		&.de_fix { font-size: 8px; }
+	}
+
+}
+
+/* ==========================================================================
+   2. COLORS
+   ========================================================================== */
+
+	/* 	2.1. ORANGE
+   		========================================================================== */   
+		#container-usp ul .fa { color: #fe9122; }
+
+/* ==========================================================================
+   3. EXTRA
+   ========================================================================== */
+
+	/* 	3.1. TRANSITIONS
+   		========================================================================== */   
+		#container-usp ul .fa.fa-truck { 
+			transform: scaleX(-1);
+			filter: FlipH;
+			}
+
+

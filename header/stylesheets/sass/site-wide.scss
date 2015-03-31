@@ -1,0 +1,93 @@
+// top-margin on search-results dropdown
+#headerSearch #suggestDropdown{
+	margin-top: 45px;
+}
+
+// aligns the certona containers in the right place
+.certona .slides{
+	margin-left: -30px !important;
+}
+
+
+.detail_v1 .flexslider_recommended .slides .flexli:first-child{
+	margin-left: 0 !important;
+}
+
+// adjusting z-index for the gender-icon
+#main .detail_v2 #productHeader .product_gender{
+	position: relative;
+	right: -16px;
+}
+
+// a little margin on top of the image-thumbs on product-detail
+.productImageSliderControls{
+	margin-top: 7px;
+}
+
+// makes the extended range icon appear on the shoplanding website
+#productBody .colorLinks li .er_icon{
+	margin-top: 0;
+}
+
+// makes the sub and sup elements not shine through zoom on safari
+sub, sup{
+	position: static;
+}
+
+// making 8 swatches fit on one line next to eachother
+#main .detail_v2 #productBody .swatch_container .colorLinks li{
+	margin: 0 12px 0 0;
+}
+
+// makes the promo-icon on pdp appear underneath the color-swatch an make it appear instantly
+#productBody .colorLinks li a, #productBody .colorLinks li .promo_icon{
+	position: static;
+}
+#productBody .colorLinks li a{
+	transition: none;
+}
+
+// centering certona prices
+#main .detail_v2 .certona .product_recommendations li.span2 .front.thumb .inner .footer .priceNew{
+	float: none;
+	font-weight: 600;
+	text-align: center;
+}
+
+// displaying vanaf on certona campaigns
+#main .detail_v2 #product2_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .labeler{
+	display: inline-block;
+}
+
+// putting the manual at the top of the technical section
+#main .detail_v2 .productInfo .technical{ 
+	position: relative;}
+#main .detail_v2 .productInfo .technical .manual a.manualLink{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
+// MATEN: Geen verspringing na hover
+#main .detail_v2 #productBody .size_container .sizes a{
+	border: 1px solid transparent;
+}
+
+// CERTONA: Merknamen met kleine letters en hoofdletter
+#main .detail_v2 .recentlyViewed h3, #main .detail_v2 #product2_rr h3, #main .detail_v2 #product1_rr h3{
+	text-transform: capitalize;
+}
+
+// CERTONA: footer is breedte van container, float niet en geen padding aan zijkanten
+#main .detail_v2 .recentlyViewed .flexslider_recommended li.span2 .front.thumb .inner .footer{
+	float: none;
+	padding: 5px 0;
+	width: 100%;
+}
+
+// REVIEWS: Plus- en minpunten komen nu naast elkaar te staan
+#main .detail_v2 .review_overview .review-block-points-minus{
+	margin-left: 10px;
+}
+
+
