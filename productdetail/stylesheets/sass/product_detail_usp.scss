@@ -1,0 +1,158 @@
+@import "breakpoints";
+
+/*====================================
+=            Styles - USP            =
+====================================*/
+
+/**
+ * Description: Header usp - website asadventure.com.
+ * Version: 1.0.0
+ * Last update: 2015/03/31
+ * Author: Maaike Ongena <maaike.ongena@asadventure.com>
+ *
+ * Summary:
+ *
+ *	0. CONTAINER
+ *		- 0.1. UL-ELEMENTS
+ *		- 0.2. UL LI ELEMENTS
+ *	1. MEDIAQUERRIES
+ *		- 1.1. LANDSCAPE
+ *		- 1.2. PORTRAIT
+ *	2. COLORS
+ *		- 2.1. ICONS
+ *	3. EXTRA
+ *		- 3.1 TRANSITIONS
+ */
+
+/* ==========================================================================
+   0. CONTAINER
+   ========================================================================== */
+
+#test-omgeving {
+	width: 280px;
+	height: 277px;
+}
+
+#container-usp-product-detail {
+	font-size: 14px;
+	p {
+		line-height: 1.3em;
+		font: 16px/20px "Myriad Pro", Arial, sans-serif;
+	}
+}
+
+#container-usp-product-detail {
+	width: 100%;
+	height: auto;
+	margin: 0px 0px 10px 30px; // 30px margin-bottom - SOCIAL ICONS
+	padding: 0;
+	font-family: "Open Sans", Helvetica, sans-serif;
+
+	/* 	NON-DISPLAY MOBILE DEVICES */
+	@include breakpoint(baby-bear) { display: none; }
+}
+
+	/* 0.1. UL ELEMENT
+	   ========================================================================== */
+		#container-usp-product-detail ul {
+			margin: 0;
+			padding: 0;
+			color: #505050;
+			background: #f7f7f7;
+
+		}
+
+	/* 0.2. UL LI ELEMENTS
+	   ========================================================================== */
+
+		#container-usp-product-detail {
+
+				ul li {
+	  			position: relative;
+	  			height: 35px;
+				border-bottom: 1px solid #e0e0e0;
+				&:last-child { border-bottom: 0; }
+
+				list-style-type: none;
+				padding: 10px;
+
+					@include breakpoint (stiff-mama-bear) { height: 25px; }
+
+				.usp-pd-icons {
+					font-size: 1.5em;
+					margin-right: 15px;
+					width: 20px;
+					height: 100%;
+					vertical-align: bottom;
+						& * + * { vertical-align: super; }
+						@include breakpoint (mama-bear) {
+							height: 85%;
+							margin-right: 5px;
+						}
+						@include breakpoint (stiff-mama-bear) {
+							height: 100%;
+							margin-right: 0;
+						}
+				}
+
+				.usp-text {
+					color: #707070;
+					font-size: 15px;
+					margin: 0;
+					padding: 0;
+					width: 85%;
+					height: 100%;
+					display: inline-block;
+
+					@include breakpoint(mama-bear) {
+						font-size: 11.5px;
+						width: 85%;
+						height: 70%;
+					}
+					@include breakpoint(stiff-mama-bear) {
+						font-size: 10px;
+						width: 80%;
+						line-height: 10px;
+					}
+
+
+				}
+
+/* ==========================================================================
+   1. MEDIAQUERRIES TABLET (LANDSCAPE & PORTRAIT)
+   ========================================================================== */
+
+	/* 	1.1. LANDSCAPE
+   		========================================================================== */
+		@include breakpoint(mama-bear) {
+			font-size: 12px;
+		}
+	/* 	1.2. PORTRAIT
+   		========================================================================== */
+		@include breakpoint(stiff-mama-bear) {
+			font-size: 8.8px;
+		}
+	}
+}
+
+/* ==========================================================================
+   2. COLORS
+   ========================================================================== */
+
+	/* 	2.1. ORANGE
+   		========================================================================== */
+		#container-usp-product-detail ul .fa { color: #505050; }
+
+		
+/* ==========================================================================
+   3. EXTRA
+   ========================================================================== */
+
+	/* 	3.1. TRANSITIONS
+   		========================================================================== */   
+		#container-usp-product-detail ul .fa.fa-truck { 
+			transform: scaleX(-1);
+			filter: FlipH;
+			}
+
+
