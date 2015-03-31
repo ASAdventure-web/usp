@@ -1,0 +1,62 @@
+@import "breakpoints";
+#container-usp.dag-vd-webshop {
+	background: url("../../images/sprout-pencils.jpg") #fff no-repeat 100% 0;
+	margin-left: 30px;
+	margin-right: 0;
+	padding: 0;
+	@include breakpoint(mama-bear) {
+		margin-left: 20px;
+	}
+	@include breakpoint(stiff-mama-bear) {
+		margin-left: 20px;
+		background: #fff;
+	}
+	@include breakpoint(baby-bear) {
+		display: none;
+	}
+}
+#container-usp.dag-vd-webshop ul {
+	margin: 0;
+	padding: 0;
+	color: #505050;
+	display: block;
+}
+#container-usp.dag-vd-webshop ul li {
+	list-style-type: none;
+	display: inline-block;
+	font-weight:200;
+	font-size: 13px;
+	@include breakpoint(stiff-mama-bear) {
+		font-size: 10px;
+	}
+}
+#container-usp.dag-vd-webshop ul .fa-play{
+	margin-left: -4px;
+	color: #e61e43;
+	font-size: 25px;
+	vertical-align: middle;
+}
+#container-usp.dag-vd-webshop ul .webshop-data {
+	background: #e61e43;
+	width: 45%;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 2px;
+	@include breakpoint(mama-bear) {
+		letter-spacing: 0;
+	}
+	@include breakpoint(stiff-mama-bear) {
+		width: auto;
+		letter-spacing: 0;
+	}
+}
+// #container-usp.dag-vd-webshop ul .webshop-voordeel {
+// 	letter-spacing: 1px;
+// 	@include breakpoint(mama-bear) {
+// 		letter-spacing: 0;
+// 	}
+// }
+
+#container-usp .gratis-levering-highlighted {
+	text-transform: uppercase;
+}
