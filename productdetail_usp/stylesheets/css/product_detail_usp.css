@@ -126,6 +126,6 @@
    ========================================================================== */
 	/* 	3.1. TRANSITIONS
    		========================================================================== */
-#container-usp ul .fa.fa-truck {
+#container-usp-product-detail ul .fa.fa-truck {
   transform: scaleX(-1);
   filter: FlipH; }
