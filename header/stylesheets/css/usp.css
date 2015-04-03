@@ -60,6 +60,14 @@ sub, sup {
 #main .detail_v2 .review_overview .review-block-points-minus {
   margin-left: 10px; }
 
+.thumbContainer {
+  width: 900px;
+  max-width: 900px; }
+  @media (max-width: 1199px) {
+    .thumbContainer {
+      max-width: 720px;
+      width: 720px; } }
+
 /*====================================
 =            Styles - USP            =
 ====================================*/
