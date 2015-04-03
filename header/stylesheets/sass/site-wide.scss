@@ -90,4 +90,12 @@ sub, sup{
 	margin-left: 10px;
 }
 
-
+//fixes problem of tho-column listerpage on screenwidth: 2000px
+.thumbContainer {
+	width: 900px;
+	max-width: 900px;
+	@media (max-width: 1199px) {
+	  max-width: 720px;
+	  width: 720px;
+	}
+}
