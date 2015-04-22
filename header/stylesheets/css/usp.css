@@ -68,6 +68,9 @@ sub, sup {
       max-width: 720px;
       width: 720px; } }
 
+#main .detail_v2 .review_staffkit div.stafkittest {
+  float: left; }
+
 /*====================================
 =            Styles - USP            =
 ====================================*/
