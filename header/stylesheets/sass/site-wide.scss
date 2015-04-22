@@ -99,3 +99,8 @@ sub, sup{
 	  width: 720px;
 	}
 }
+
+// kader staffreview laten meelopen met foto bij korte tekstjes
+#main .detail_v2 .review_staffkit div.stafkittest {
+	float: left;
+}
