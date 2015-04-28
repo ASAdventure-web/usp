@@ -104,3 +104,8 @@ sub, sup{
 #main .detail_v2 .review_staffkit div.stafkittest {
 	float: left;
 }
+
+// Prijzen in certona blokken op één lijn zetten
+#main .detail_v2 .recentlyViewed .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .currency, #main .detail_v2 #product2_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .currency, #main .detail_v2 #product1_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .currency{
+	margin-left: 0;
+}
