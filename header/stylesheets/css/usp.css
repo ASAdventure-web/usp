@@ -27,8 +27,7 @@ sub, sup {
   position: static; }
 
 #productBody .colorLinks li a {
-  -webkit-transition: none;
-          transition: none; }
+  transition: none; }
 
 #main .detail_v2 .certona .product_recommendations li.span2 .front.thumb .inner .footer .priceNew {
   float: none;
@@ -79,6 +78,9 @@ sub, sup {
   @media (max-width: 1200px) {
     .navbar .nav > li > a {
       font-size: 12px; } }
+  @media (max-width: 979px) and (min-device-width: 767px) {
+    .navbar .nav > li > a {
+      padding: 0 7px !important; } }
 
 /*====================================
 =            Styles - USP            =
@@ -176,8 +178,5 @@ sub, sup {
 	/* 	3.1. TRANSITIONS
    		========================================================================== */
 #container-usp ul .fa.fa-truck {
-  -webkit-transform: scaleX(-1);
-      -ms-transform: scaleX(-1);
-          transform: scaleX(-1);
-  -webkit-filter: FlipH;
-          filter: FlipH; }
+  transform: scaleX(-1);
+  filter: FlipH; }
