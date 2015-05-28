@@ -73,13 +73,22 @@ sub, sup {
 #main .detail_v2 .recentlyViewed .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .currency, #main .detail_v2 #product2_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .currency, #main .detail_v2 #product1_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .currency {
   margin-left: 0; }
 
+.navbar .nav > li > a {
+  padding: 0 8px; }
+  @media (max-width: 1200px) {
+    .navbar .nav > li > a {
+      font-size: 12px; } }
+  @media (max-width: 979px) and (min-device-width: 767px) {
+    .navbar .nav > li > a {
+      padding: 0 7px !important; } }
+
 /*====================================
 =            Styles - USP            =
 ====================================*/
 /**
  * Description: Header usp - website asadventure.com.
  * Version: 1.0.0
- * Last update: 2015/03/31
+ * Last update: 2015/05/27
  * Author: Maaike Ongena <maaike.ongena@asadventure.com>
  *
  * Summary:
