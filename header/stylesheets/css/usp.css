@@ -27,7 +27,8 @@ sub, sup {
   position: static; }
 
 #productBody .colorLinks li a {
-  transition: none; }
+  -webkit-transition: none;
+          transition: none; }
 
 #main .detail_v2 .certona .product_recommendations li.span2 .front.thumb .inner .footer .priceNew {
   float: none;
@@ -88,7 +89,7 @@ sub, sup {
 /**
  * Description: Header usp - website asadventure.com.
  * Version: 1.0.0
- * Last update: 2015/05/27
+ * Last update: 2015/05/28
  * Author: Maaike Ongena <maaike.ongena@asadventure.com>
  *
  * Summary:
@@ -103,6 +104,7 @@ sub, sup {
  *		- 2.1. ICONS
  *	3. EXTRA
  *		- 3.1 TRANSITIONS
+ * 		- 3.2 FIXED PLACEMENT (TEMP)
  */
 /* ==========================================================================
    0. CONTAINER
@@ -178,5 +180,27 @@ sub, sup {
 	/* 	3.1. TRANSITIONS
    		========================================================================== */
 #container-usp ul .fa.fa-truck {
-  transform: scaleX(-1);
-  filter: FlipH; }
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: FlipH;
+          filter: FlipH; }
+
+	/* 	3.2. FIXED PLACEMENT(TEMP)
+   		========================================================================== */
+#container-usp ul .fa.fa-truck {
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: FlipH;
+          filter: FlipH; }
+
+.campaign_menu_bottom .container .campaign_image {
+  position: fixed;
+  z-index: 1000;
+  background-color: #EDECEA;
+  height: 30px;
+  border-bottom: 1px solid #ddd; }
+
+#container-usp ul span {
+  color: #fe9122; }
