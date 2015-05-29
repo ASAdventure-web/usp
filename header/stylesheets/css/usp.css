@@ -198,7 +198,7 @@ sub, sup {
 .campaign_menu_bottom .container .campaign_image {
   position: fixed;
   z-index: 1000;
-  background-color: #EDECEA;
+  background: url(http://www.asadventure.com/styles/images/background/bg.jpg);
   height: 30px;
   border-bottom: 1px solid #ddd; }
 
