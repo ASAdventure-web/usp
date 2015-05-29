@@ -195,12 +195,5 @@ sub, sup {
   -webkit-filter: FlipH;
           filter: FlipH; }
 
-.campaign_menu_bottom .container .campaign_image {
-  position: fixed;
-  z-index: 1000;
-  background-color: #EDECEA;
-  height: 30px;
-  border-bottom: 1px solid #ddd; }
-
 #container-usp ul span {
   color: #fe9122; }
