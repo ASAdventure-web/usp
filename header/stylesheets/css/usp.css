@@ -83,6 +83,9 @@ sub, sup {
     .navbar .nav > li > a {
       padding: 0 7px !important; } }
 
+header.header {
+  z-index: 10000; }
+
 /*====================================
 =            Styles - USP            =
 ====================================*/
@@ -188,12 +191,9 @@ sub, sup {
 
 	/* 	3.2. FIXED PLACEMENT(TEMP)
    		========================================================================== */
-#container-usp ul .fa.fa-truck {
-  -webkit-transform: scaleX(-1);
-      -ms-transform: scaleX(-1);
-          transform: scaleX(-1);
-  -webkit-filter: FlipH;
-          filter: FlipH; }
+.campaign_menu_bottom .container .campaign_image {
+  position: fixed;
+  z-index: 9999; }
 
 #container-usp ul span {
   color: #fe9122; }
