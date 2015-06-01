@@ -109,3 +109,19 @@ sub, sup{
 #main .detail_v2 .recentlyViewed .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .currency, #main .detail_v2 #product2_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .currency, #main .detail_v2 #product1_rr .flexslider_recommended li.span2 .front.thumb .inner .footer .priceNew .currency{
 	margin-left: 0;
 }
+
+//menu kleiner zetten voor folder-tab
+.navbar .nav > li > a { 
+	padding: 0 8px;
+	@media (max-width: 1200px) {
+		font-size: 12px;
+	}
+	@media (max-width: 979px) and (min-device-width: 767px) {
+  		padding: 0 7px !important;
+	}
+}
+
+//pijltjes in boxlider komen boven header op mobiele versie
+header.header {
+	z-index: 10000;
+}

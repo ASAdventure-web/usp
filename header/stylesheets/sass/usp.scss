@@ -8,7 +8,7 @@
 /**
  * Description: Header usp - website asadventure.com.
  * Version: 1.0.0
- * Last update: 2015/03/31
+ * Last update: 2015/05/28
  * Author: Maaike Ongena <maaike.ongena@asadventure.com>
  *
  * Summary:
@@ -23,6 +23,7 @@
  *		- 2.1. ICONS
  *	3. EXTRA
  *		- 3.1 TRANSITIONS
+ * 		- 3.2 FIXED PLACEMENT (TEMP)
  */
 
 /* ==========================================================================
@@ -105,4 +106,13 @@
 			filter: FlipH;
 			}
 
+	/* 	3.2. FIXED PLACEMENT(TEMP)
+   		========================================================================== */   
+
+		.campaign_menu_bottom .container .campaign_image {
+		  position: fixed;
+		  z-index: 9999;
+		}
+
+		#container-usp ul span { color: #fe9122; }
 
