@@ -120,3 +120,8 @@ sub, sup{
   		padding: 0 7px !important;
 	}
 }
+
+//pijltjes in boxlider komen boven header op mobiele versie
+header.header {
+	z-index: 10000;
+}
