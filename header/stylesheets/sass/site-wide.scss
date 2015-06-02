@@ -121,7 +121,13 @@ sub, sup{
 	}
 }
 
-//pijltjes in boxlider komen boven header op mobiele versie
-header.header {
-	z-index: 10000;
+//tekst valt weg in de thumbs op de listerpage als naam van een product over drie regels loopt
+.thumbs article h4 {
+	position: relative;
+	overflow: visible;
+}
+
+//correctie plaatsing logo in popup maattabel
+#main .detail_v2 #productBody .size_container .sizeguide .brand-logo-sizeguide { 
+	padding: 5px 20px;
 }
