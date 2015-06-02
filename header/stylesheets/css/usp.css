@@ -83,8 +83,12 @@ sub, sup {
     .navbar .nav > li > a {
       padding: 0 7px !important; } }
 
-header.header {
-  z-index: 10000; }
+.thumbs article h4 {
+  position: relative;
+  overflow: visible; }
+
+#main .detail_v2 #productBody .size_container .sizeguide .brand-logo-sizeguide {
+  padding: 5px 20px; }
 
 /*====================================
 =            Styles - USP            =
@@ -193,7 +197,7 @@ header.header {
    		========================================================================== */
 .campaign_menu_bottom .container .campaign_image {
   position: fixed;
-  z-index: 9999; }
+  z-index: 100; }
 
 #container-usp ul span {
   color: #fe9122; }
