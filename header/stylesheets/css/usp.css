@@ -90,6 +90,10 @@ sub, sup {
 #main .detail_v2 #productBody .size_container .sizeguide .brand-logo-sizeguide {
   padding: 5px 20px; }
 
+@media (max-width: 1200px) {
+  .level1-dropdown .promo-area-banner {
+    margin-left: -10px; } }
+
 /*====================================
 =            Styles - USP            =
 ====================================*/
@@ -192,12 +196,3 @@ sub, sup {
           transform: scaleX(-1);
   -webkit-filter: FlipH;
           filter: FlipH; }
-
-	/* 	3.2. FIXED PLACEMENT(TEMP)
-   		========================================================================== */
-.campaign_menu_bottom .container .campaign_image {
-  position: fixed;
-  z-index: 100; }
-
-#container-usp ul span {
-  color: #fe9122; }
