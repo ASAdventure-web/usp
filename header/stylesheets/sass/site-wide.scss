@@ -131,3 +131,10 @@ sub, sup{
 #main .detail_v2 #productBody .size_container .sizeguide .brand-logo-sizeguide { 
 	padding: 5px 20px;
 }
+
+//correctie marge SFO
+.level1-dropdown .promo-area-banner {
+	@media (max-width:1200px) {
+		margin-left: -10px;
+	}
+}
