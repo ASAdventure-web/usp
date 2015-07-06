@@ -85,7 +85,14 @@ sub, sup {
 
 .thumbs article h4 {
   position: relative;
-  overflow: visible; }
+  overflow: visible;
+  line-height: 15px; }
+  @media (max-width: 979px) {
+    .thumbs article h4 {
+      line-height: 15px; } }
+  @media (min-width: 1200px) {
+    .thumbs article h4 {
+      line-height: 22px; } }
 
 #main .detail_v2 #productBody .size_container .sizeguide .brand-logo-sizeguide {
   padding: 5px 20px; }
