@@ -125,6 +125,13 @@ sub, sup{
 .thumbs article h4 {
 	position: relative;
 	overflow: visible;
+	line-height: 15px;
+	@media (max-width: 979px) {
+		line-height: 15px;
+	}
+	@media (min-width: 1200px) {
+		line-height: 22px;
+	}
 }
 
 //correctie plaatsing logo in popup maattabel
