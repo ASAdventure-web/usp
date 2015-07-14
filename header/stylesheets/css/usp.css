@@ -101,6 +101,13 @@ sub, sup {
   .level1-dropdown .promo-area-banner {
     margin-left: -10px; } }
 
+@media (max-width: 979px) and (min-width: 767px) {
+  .basket .row.basketBanner IMG {
+    height: auto; } }
+@media (max-width: 1200px) and (min-width: 979px) {
+  .basket .row.basketBanner IMG {
+    height: auto; } }
+
 /*====================================
 =            Styles - USP            =
 ====================================*/

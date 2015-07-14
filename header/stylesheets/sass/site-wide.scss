@@ -145,3 +145,13 @@ sub, sup{
 		margin-left: -10px;
 	}
 }
+
+// aanpassingen verhoudingen basket banner
+.basket .row.basketBanner IMG {
+	@media (max-width: 979px) and (min-width: 767px) {
+		height: auto;
+	}
+	@media (max-width: 1200px) and (min-width: 979px) {
+		height: auto;
+	}
+}
