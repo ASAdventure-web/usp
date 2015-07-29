@@ -102,11 +102,14 @@ sub, sup {
     margin-left: -10px; } }
 
 @media (max-width: 979px) and (min-width: 767px) {
-  .basket .row.basketBanner IMG {
+  .basket .row.basketBanner img {
     height: auto; } }
 @media (max-width: 1200px) and (min-width: 979px) {
-  .basket .row.basketBanner IMG {
+  .basket .row.basketBanner img {
     height: auto; } }
+
+#footerWrapper .span2 img {
+  display: none; }
 
 /*====================================
 =            Styles - USP            =
