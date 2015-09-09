@@ -108,6 +108,11 @@ sub, sup {
   .basket .row.basketBanner IMG {
     height: auto; } }
 
+
+.productImageSlider div.bx-wrapper {
+  z-index: 1;
+}
+
 /*====================================
 =            Styles - USP            =
 ====================================*/

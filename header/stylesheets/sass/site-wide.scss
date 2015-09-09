@@ -155,3 +155,8 @@ sub, sup{
 		height: auto;
 	}
 }
+
+// image + maatadvies aanpassen
+.productImageSlider div.bx-wrapper {
+	z-index: 1;
+}
