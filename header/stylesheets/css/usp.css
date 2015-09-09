@@ -108,8 +108,15 @@ sub, sup {
   .basket .row.basketBanner img {
     height: auto; } }
 
+<<<<<<< HEAD
 #footerWrapper .span2 img {
   display: none; }
+=======
+
+.productImageSlider div.bx-wrapper {
+  z-index: 1;
+}
+>>>>>>> release/150909_css_fix
 
 /*====================================
 =            Styles - USP            =

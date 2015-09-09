@@ -156,7 +156,14 @@ sub, sup{
 	}
 }
 
+<<<<<<< HEAD
 //Becommerce logo verwijderen
 #footerWrapper .span2 img {
 	display: none;
 }
+=======
+// image + maatadvies aanpassen
+.productImageSlider div.bx-wrapper {
+	z-index: 1;
+}
+>>>>>>> release/150909_css_fix
