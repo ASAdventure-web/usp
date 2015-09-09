@@ -1,13 +1,17 @@
-window.onload=function(){
+// window.onload=function(){
 
-        var sBackground;
-        var color = $('#main').css("background-color");
-        var image = $('#main').css("background-image");
-        if (image !== 'none') {
-	        sBackground = image + ' ' + color;
-	    } else {
-	    	sBackground = color;
-	    }
-	    $('.campaign_menu_bottom .container .campaign_image').css("background", sBackground);
+// 	var aLinks = "3";
 
-};
+// 	if (document.querySelectorAll) {
+// 	    // aLinks = document.querySelectorAll("a");
+// 	    $aLinks = "1";
+// 	} else {
+// 		// aLinks = document.getElementsByTagName(a);
+// 		$aLinks = "2";
+
+// 	}
+
+// 	// for (var i=0, max=aLinks.length; i < max; i++) {
+// 	     console.log(aLinks);
+// 	// }
+// };
