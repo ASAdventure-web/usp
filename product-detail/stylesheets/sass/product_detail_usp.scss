@@ -155,4 +155,18 @@
 			filter: FlipH;
 			}
 
+/* ==========================================================================
+   4. 360°
+   ========================================================================== */
 
+    @media screen and (max-width: 1199px) {
+        .frame {
+            margin-top:14.2%!important;
+        }
+    }
+
+    @media screen and (max-width: 979px) {
+        .frame {
+            margin-top:15%!important;
+        }
+    }
