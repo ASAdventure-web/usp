@@ -147,7 +147,7 @@ sub, sup{
 }
 
 // aanpassingen verhoudingen basket banner
-.basket .row.basketBanner IMG {
+.basket .row.basketBanner img {
 	@media (max-width: 979px) and (min-width: 767px) {
 		height: auto;
 	}
@@ -156,7 +156,14 @@ sub, sup{
 	}
 }
 
+<<<<<<< HEAD
+//Becommerce logo verwijderen
+#footerWrapper .span2 img {
+	display: none;
+}
+=======
 // image + maatadvies aanpassen
 .productImageSlider div.bx-wrapper {
 	z-index: 1;
 }
+>>>>>>> release/150909_css_fix
