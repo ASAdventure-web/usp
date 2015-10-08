@@ -156,14 +156,30 @@ sub, sup{
 	}
 }
 
-<<<<<<< HEAD
 //Becommerce logo verwijderen
 #footerWrapper .span2 img {
 	display: none;
 }
-=======
 // image + maatadvies aanpassen
 .productImageSlider div.bx-wrapper {
 	z-index: 1;
 }
->>>>>>> release/150909_css_fix
+// colorswatches fix
+@media (min-width: 976px) {
+	#productBody .colorLinks .selected a .selectedSwatchOverlay, .lookbookDetail .colorLinks .selected a .selectedSwatchOverlay {
+		background-size: 14px;
+		height: 14px;
+		left: 0px;
+		top: 0px;
+		width: 14px;
+	}
+
+    .productList article .colorLinks li.selected a, #productBody .colorLinks li.selected a, #productBody .colorLinks li a {
+        height: 29px;
+        width: 29px;
+    }
+
+    #main .detail_v2 #productBody .swatch_container .colorLinks li.last {
+    margin-right: 12px;
+	}
+}
