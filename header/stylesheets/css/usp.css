@@ -27,8 +27,7 @@ sub, sup {
   position: static; }
 
 #productBody .colorLinks li a {
-  -webkit-transition: none;
-          transition: none; }
+  transition: none; }
 
 #main .detail_v2 .certona .product_recommendations li.span2 .front.thumb .inner .footer .priceNew {
   float: none;
@@ -128,6 +127,22 @@ sub, sup {
 
   #main .detail_v2 #productBody .swatch_container .colorLinks li.last {
     margin-right: 12px; } }
+@media (max-width: 767px) {
+  .productList article .colorLinks li.selected a, #productBody .colorLinks li.selected a, #productBody .colorLinks li a {
+    height: 100% !important;
+    width: 100% !important;
+    padding: 0 !important; }
+
+  #main .detail_v2 #productBody .swatch_container .colorLinks li.last {
+    margin-right: 12px; }
+
+  #main .detail_v2 #productBody .swatch_container .colorLinks .selected a .selectedSwatchOverlay {
+    top: 37%;
+    left: 44%;
+    position: relative; }
+
+  #main .detail_v2 #productBody .size_container .sizes li {
+    min-width: 50px; } }
 /*====================================
 =            Styles - USP            =
 ====================================*/
@@ -225,8 +240,5 @@ sub, sup {
 	/* 	3.1. TRANSITIONS
    		========================================================================== */
 #container-usp ul .fa.fa-truck {
-  -webkit-transform: scaleX(-1);
-      -ms-transform: scaleX(-1);
-          transform: scaleX(-1);
-  -webkit-filter: FlipH;
-          filter: FlipH; }
+  transform: scaleX(-1);
+  filter: FlipH; }
