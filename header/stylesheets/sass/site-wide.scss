@@ -183,3 +183,24 @@ sub, sup{
     margin-right: 12px;
 	}
 }
+@media (max-width: 767px) {
+	.productList article .colorLinks li.selected a, #productBody .colorLinks li.selected a, #productBody .colorLinks li a  {
+		height:100%!important;
+		width:100%!important;
+		padding:0!important;
+	}
+
+	#main .detail_v2 #productBody .swatch_container .colorLinks li.last {
+   		margin-right: 12px;
+	}
+
+	#main .detail_v2 #productBody .swatch_container .colorLinks .selected a .selectedSwatchOverlay {
+    	top: 37%;
+    	left: 44%;
+	    position: relative;
+	}
+	#main .detail_v2 #productBody .size_container .sizes li {
+		min-width:50px;
+	}
+
+}
